@@ -10,4 +10,4 @@ import py2exe
 #
 #setup(console=['0minup.v0.43m.py'], options=options)
 
-setup(console=['ampbalance.py'],options={"py2exe":{"includes":["h5py.*","cython.*","scipy.special.*","scipy.linalg.*","scipy.sparse.csgraph._validation","mlpy.*"], "dll_excludes": ["MSVCP90.dll"] ,"excludes": ["IPython", "Tkinter", "tcl"]}})
+setup(console=['ampbalance.py','ampbalance_v2.py'],options={"py2exe":{"includes":["h5py.*","cython.*","scipy.special.*","scipy.linalg.*","scipy.sparse.csgraph._validation","mlpy.*"], "dll_excludes": ["MSVCP90.dll"] ,"excludes": ["IPython", "Tkinter", "tcl"]}})
